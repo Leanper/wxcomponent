@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/导航页/index/index",
+    "pages/导航页/logs/logs",
+    "pages/导航页/second/second",
+    "pages/导航页/third/Third",
+    "pages/导航页/forth/Forth",
+    "pages/导航页/five/five"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#46a3ff",
+    "navigationBarTitleText": "斯人若彩虹",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/导航页/index/index",
+        "iconPath": "images/shopping.png",
+        "selectedIconPath": "images/shopping_selected.png",
+        "text": "控件"
+      },
+      {
+        "pagePath": "pages/导航页/second/second",
+        "text": "表单组件",
+        "selectedColor": "#0f0",
+        "iconPath": "images/shopping.png",
+        "selectedIconPath": "images/shopping_selected.png"
+      },
+      {
+        "pagePath": "pages/导航页/third/Third",
+        "text": "媒体组件",
+        "selectedColor": "#0f0",
+        "‘Leanper": " //路径必须写清楚 images/shopping.png  tabbar 不能超过40kb 格式81*81",
+        "iconPath": "images/shopping.png",
+        "selectedIconPath": "images/shopping_selected.png"
+      },
+      {
+        "pagePath": "pages/导航页/forth/Forth",
+        "text": "扩展",
+        "selectedColor": "#0f0",
+        "iconPath": "images/shopping.png",
+        "selectedIconPath": "images/shopping_selected.png"
+      },
+      {
+        "pagePath": "pages/导航页/five/five",
+        "text": "soul",
+        "selectedColor": "#0f0",
+        "iconPath": "images/shopping.png",
+        "selectedIconPath": "images/shopping_selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
+}

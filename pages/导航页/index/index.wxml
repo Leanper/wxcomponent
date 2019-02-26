@@ -1,0 +1,23 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots='true' >
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="455" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<view class="show" wx:for="{{datas}}">
+  <image class='image_item' src="{{item.src}}"> </image>
+
+
+  <view class='info' >
+    <text class='title_item'>{{item.title}}</text>
+    <text class='text_item'>{{item.dec}}</text>
+  </view>
+
+
+
+</view>
+
+<button bindtap='click'>打他呀</button>

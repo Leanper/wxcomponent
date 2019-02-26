@@ -1,0 +1,52 @@
+/* pages/forth/Forth.wxss */
+.text{
+ margin: 10dp
+}
+
+.flex-wrp{
+ margin: 10px;
+ 
+ color:#ffff00
+}
+.flex-item-bc_green{
+ width: 100px;
+ height: 100px;
+ background: #00ff00
+}
+
+.flex-item-bc_red{
+ width: 100px;
+ height: 100px;
+ background: #e90a0a
+
+}
+
+.flex-item-bc_blue{
+ width: 100px;
+ height: 100px;
+ background: #460ae9
+}
+
+
+.flex-wrps{
+    display: flex;
+   flex-direction: column;
+
+}
+
+.myscroll{
+ 
+  margin-top: 20px;
+  block-overflow: 10px;
+
+}
+
+.flex-wrp{
+    height: 100px;
+    display:flex;
+    background-color: #FFFFFF;
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+}
