@@ -1,11 +1,12 @@
 {
   "pages": [
-    "pages/导航页/index/index",
-    "pages/导航页/logs/logs",
-    "pages/导航页/second/second",
-    "pages/导航页/third/Third",
-    "pages/导航页/forth/Forth",
-    "pages/导航页/five/five"
+    "pages/leanper/index/index",
+    "pages/leanper/logs/logs",
+    "pages/leanper/second/second",
+    "pages/leanper/third/Third",
+    "pages/leanper/forth/Forth",
+    "pages/leanper/five/five"
+ 
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -17,20 +18,20 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/导航页/index/index",
+        "pagePath": "pages/leanper/index/index",
         "iconPath": "images/shopping.png",
         "selectedIconPath": "images/shopping_selected.png",
         "text": "控件"
       },
       {
-        "pagePath": "pages/导航页/second/second",
+        "pagePath": "pages/leanper/second/second",
         "text": "表单组件",
         "selectedColor": "#0f0",
         "iconPath": "images/shopping.png",
         "selectedIconPath": "images/shopping_selected.png"
       },
       {
-        "pagePath": "pages/导航页/third/Third",
+        "pagePath": "pages/leanper/third/Third",
         "text": "媒体组件",
         "selectedColor": "#0f0",
         "‘Leanper": " //路径必须写清楚 images/shopping.png  tabbar 不能超过40kb 格式81*81",
@@ -38,14 +39,14 @@
         "selectedIconPath": "images/shopping_selected.png"
       },
       {
-        "pagePath": "pages/导航页/forth/Forth",
+        "pagePath": "pages/leanper/forth/Forth",
         "text": "扩展",
         "selectedColor": "#0f0",
         "iconPath": "images/shopping.png",
         "selectedIconPath": "images/shopping_selected.png"
       },
       {
-        "pagePath": "pages/导航页/five/five",
+        "pagePath": "pages/leanper/five/five",
         "text": "soul",
         "selectedColor": "#0f0",
         "iconPath": "images/shopping.png",
