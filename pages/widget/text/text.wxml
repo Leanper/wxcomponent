@@ -1,0 +1,6 @@
+<!--pages/widget/text/text.wxml-->
+<view class="view_style"  style="flex-direction:column;">
+<text class="text_style" >文本显示</text>
+<text class="text_style">文本显示</text>
+
+</view>

@@ -1,0 +1,5 @@
+/* pages/widget/progress/progress.wxss */
+.progress_style{
+  border-radius:5px;
+ 
+}

@@ -1,5 +1,5 @@
-<!--pages/second/second.wxml-->
-<!--index.wxml-->
+<!-- pages/second/second.wxml
+<!--index.wxml
 <view class="section">
   <view class="section__title">movable-view区域小于movable-area</view>
   <movable-area style="height: 200px; width: 200px; background: red;">
@@ -36,4 +36,19 @@
       scale-value="2"
     ></movable-view>
   </movable-area>
+</view> -->
+-->
+<view>
+  <form bindsubmit='getMessage'>
+    <input class='create-title' name = 'message' type='text' value='' placeholder='查询条件' bindinput='getData' ></input>
+    <button form-type='submit'>提交</button>
+</form>
 </view>
+      <textarea value="{{textdata}}"/>
+
+<view wx:for='{{info}}'>
+  <text >{{item.success}}</text>
+
+</view>
+
+

@@ -1,0 +1,20 @@
+/* pages/widget/text/text.wxss */
+
+.text_style{
+  
+ color: #00ff00;
+
+ size: 10px;
+ padding-left: 20px;
+ margin-top: 20px;
+ background: #00ffff;
+ text-align: center;
+
+}
+
+.view_style{
+  background: #00ffff;
+width: 200px;
+ height: 200px;
+ display: flex;
+}

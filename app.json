@@ -5,13 +5,14 @@
     "pages/leanper/second/second",
     "pages/leanper/third/Third",
     "pages/leanper/forth/Forth",
-    "pages/leanper/five/five"
- 
+    "pages/leanper/five/five",
+    "pages/widget/text/text",
+    "pages/widget/progress/progress"
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#46a3ff",
-    "navigationBarTitleText": "斯人若彩虹",
+    "navigationBarTitleText": "哈哈哈",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
   },

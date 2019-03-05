@@ -1,3 +1,18 @@
 
+<navigator url="/pages/widget/text/text" class="widget">
+<button>text</button>
+ </navigator>
 
-<button bindtap='click'>打他呀</button>
+
+<navigator url="/pages/widget/progress/progress" class="widget" style="margin-top:10px">
+<button>progress</button>
+ </navigator>
+
+
+
+<view wx:for='{{info}}'  wx:key='info'>
+<view>{{item.name}}</view>
+  <view>{{item.text}}</view>
+</view>
+
+

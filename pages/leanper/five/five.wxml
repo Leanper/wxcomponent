@@ -16,7 +16,5 @@ N=?
   <navigator url= "/pages/tiaozhuan" >跳转到新页面 </navigator>
 
  <navigator url="/pages/logs/logs" class="widget">
-            <text class="widget__name">view</text>
-            <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
-            <view class="widget__line"></view>
+           view
           </navigator>
