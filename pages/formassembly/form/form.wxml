@@ -1,0 +1,46 @@
+<!--pages/formassembly/form/form.wxml-->
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section section_gap">
+    <view class="section__title">switch</view>
+    <switch name="switch" class="switch_style" bindchange='switchChanges' color='#ffff00' />
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">slider</view>
+    <slider name="slider" show-value bindchange='sliderchange' class='sliderclass' max='200'  min="10"></slider>
+  </view>
+
+  <view class="section">
+    <view class="section__titles">input</view>
+    <input name="input" placeholder="please input here" bindinput='inputgetvalue' focus='ture'/>
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">radio</view>
+    <radio-group name="radio-group" bindchange='radios'>
+      <label>
+        <radio value="radio1" />
+        radio1
+      </label>
+      <label>
+        <radio value="radio2" />
+        radio2
+      </label>
+    </radio-group>
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">checkbox</view>
+    <checkbox-group name="checkbox" bindchange='group'>
+     
+        <checkbox value="checkaabox1" />
+        checkbox1
+     
+        <checkbox value="checkbox2" />
+        checkbox2
+    
+    </checkbox-group>
+  </view>
+  <view class="btn-area">
+    <button form-type="submit">Submit</button>
+    <button form-type="reset">Reset</button>
+  </view>
+</form>

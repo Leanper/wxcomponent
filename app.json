@@ -7,12 +7,17 @@
     "pages/leanper/forth/Forth",
     "pages/leanper/five/five",
     "pages/widget/text/text",
-    "pages/widget/progress/progress"
+    "pages/widget/progress/progress",
+    "pages/widget/button/button",
+    "pages/widget/checkbox/checkbox",
+    "pages/widget/dialog/dialog",
+    "pages/formassembly/form/form",
+    "pages/formassembly/picker/picker"
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#46a3ff",
-    "navigationBarTitleText": "哈哈哈",
+    "navigationBarTitleText": "斯人若彩虹",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
   },

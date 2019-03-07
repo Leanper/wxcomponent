@@ -1,26 +1,31 @@
-// pages/widget/text/text.js
+// pages/formassembly/form/form.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    text: "ssss",
-    test:""
+    section__titles:"",
   },
-  getdata:function(e){
-      this.setData({
-            test:e.detail.value,
-         
-
-      }),
-        console.log(e.detail.value)
+  switchChanges:function(e){
+     var b= e.detail.value;
+     console.log(b);
   },
-  getinfo:function(e){
-
-   console.log("dddddddddddddd")
-     
-    
+  sliderchange:function(e){
+    console.log(e.detail.value)
+  },
+  inputgetvalue:function(e){
+    var val = e.detail.value;
+     this.setData({
+       section__titles:val
+     });
+  },
+  group:function(e){
+    e.detail.value
+    console.log(e.detail.value)
+  },
+  radios:function(e){
+    console.log(e.detail.value)
   },
   /**
    * 生命周期函数--监听页面加载
@@ -70,11 +75,18 @@ Page({
   onReachBottom: function () {
 
   },
+  formSubmit(e){
+    
+    console.log(e.detail.value)
+  },
 
   /**
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
+        wx.showToast({
+          title: '分享',
 
+        })
   }
 })

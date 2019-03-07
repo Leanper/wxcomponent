@@ -1,6 +1,10 @@
 <!--pages/widget/text/text.wxml-->
 <view class="view_style"  style="flex-direction:column;">
 <text class="text_style" >文本显示</text>
-<text class="text_style">文本显示</text>
+<text class="text_style" >文本显示</text>
+<text class="text_style" >{{test}}</text>
 
+<input bindinput='getdata' placeholder='输入内容' type='number' confirm-type='done'></input>
+
+<button bindtap='getinfo'>获取内容</button>
 </view>

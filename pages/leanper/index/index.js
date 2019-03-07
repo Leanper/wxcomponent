@@ -4,6 +4,7 @@ const app = getApp()
 
 var brand;
 var ratio;
+ischeck:false
 
 Page({
   data: {
@@ -13,6 +14,7 @@ Page({
       '/images/c.jpg'
 
     ],
+   
     indicatorDots: true,
     autoplay: true,
     interval: 3000,
@@ -33,6 +35,16 @@ Page({
     }
 
   },
+  checkboxChange(e) {
+    console.log('checkbox发生change事件，携带value值为：', e.detail.value)
+  },
+
+  bindchange(e){
+
+  },
+  state:function(e){
+    ischeck:true;
+  }
 
 
 

@@ -1,0 +1,10 @@
+<!--pages/widget/dialog/dialog.wxml-->
+<view class='styles'>
+<text bindtap='loading'>loading</text>
+<text bindtap='toast'>toast</text>
+
+<text bindtap='modal'>modal</text>
+<text bindtap='actionsheet'>actionsheet</text>
+
+
+</view>

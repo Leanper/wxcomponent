@@ -1,0 +1,20 @@
+
+
+<checkbox-group bindchange="sing">
+<view class='check-box'>
+<checkbox >是否选中</checkbox>
+</view>
+
+</checkbox-group>
+
+
+
+
+
+
+<checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}" /> {{item.value}}
+  </label>
+</checkbox-group>
+<button bindtap='state'>改变状态</button>

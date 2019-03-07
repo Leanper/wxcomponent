@@ -1,26 +1,25 @@
-// pages/widget/text/text.js
+// pages/widget/checkbox/checkbox.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    text: "ssss",
-    test:""
-  },
-  getdata:function(e){
-      this.setData({
-            test:e.detail.value,
-         
+    items: [
+      { name: 'USA', value: '韩狍子' },
+      { name: 'CHN', value: '韩晓伟傻狍子', checked: 'true' },
+      { name: 'BRA', value: '降狍十八掌' },
 
-      }),
-        console.log(e.detail.value)
+    ],
   },
-  getinfo:function(e){
+  sing:function(e){
 
-   console.log("dddddddddddddd")
-     
-    
+      if(e.detail.value){
+        console.log("未选中");
+      }else{
+        console.log("已选中");
+
+      }
   },
   /**
    * 生命周期函数--监听页面加载

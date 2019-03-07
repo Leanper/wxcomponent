@@ -34,3 +34,13 @@ swiper {
 .info {
   flex-direction: column;
 }
+
+.button_style{
+  background-color: #00fff0;
+  size: mini;
+  
+
+  
+   
+
+}

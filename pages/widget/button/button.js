@@ -1,27 +1,13 @@
-// pages/widget/text/text.js
+// pages/widget/button/button.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    text: "ssss",
-    test:""
-  },
-  getdata:function(e){
-      this.setData({
-            test:e.detail.value,
-         
 
-      }),
-        console.log(e.detail.value)
   },
-  getinfo:function(e){
 
-   console.log("dddddddddddddd")
-     
-    
-  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,18 +1,25 @@
-
 <navigator url="/pages/widget/text/text" class="widget">
-<button>text</button>
- </navigator>
+  <button class='button_style'>text</button>
+</navigator>
 
 
 <navigator url="/pages/widget/progress/progress" class="widget" style="margin-top:10px">
-<button>progress</button>
- </navigator>
+  <button class="button_style">progress</button>
+</navigator>
 
 
+<navigator url="/pages/widget/checkbox/checkbox" class="widget" style="margin-top:10px">
+<button> checkbox group 
+ </button>
+</navigator>
 
-<view wx:for='{{info}}'  wx:key='info'>
-<view>{{item.name}}</view>
+<navigator url="/pages/widget/dialog/dialog" class="widget" style="margin-top:10px">
+<button>弹框
+ </button>
+</navigator>
+
+
+<view wx:for='{{info}}' wx:key='info'>
+  <view>{{item.name}}</view>
   <view>{{item.text}}</view>
 </view>
-
-

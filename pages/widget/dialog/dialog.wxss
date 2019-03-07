@@ -1,0 +1,8 @@
+/* pages/widget/dialog/dialog.wxss */
+
+.styles{
+flex-direction:column;
+ display: flex; 
+ padding: 20px;
+ background-color: #ff0000;
+}
