@@ -12,7 +12,9 @@
     "pages/widget/checkbox/checkbox",
     "pages/widget/dialog/dialog",
     "pages/formassembly/form/form",
-    "pages/formassembly/picker/picker"
+    "pages/formassembly/picker/picker",
+    "pages/formassembly/pickerview/pickerview",
+    "pages/mediaassembly/image/image"
   ],
   "window": {
     "backgroundTextStyle": "dark",

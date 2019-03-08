@@ -1,6 +1,6 @@
 /* pages/five.wxss */
-.text_style{
- margin:10px;
- padding-left: 10px;
+.text_styles{
+
+ padding: 10px;
 color: #46a3ff
 }

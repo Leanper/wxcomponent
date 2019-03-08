@@ -49,3 +49,8 @@
 </navigator>
 
 
+<navigator url='/pages/formassembly/pickerview/pickerview'>
+
+<button>pickerview</button>
+</navigator>
+
