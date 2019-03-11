@@ -1,0 +1,8 @@
+<!--pages/mediaassembly/setStronger/Stronger.wxml-->
+
+<input type='string' bindinput='saveinfo'></input>
+
+<button bindtap='getinfo'>获取</button>
+
+<text>{{info}}</text>
+ 

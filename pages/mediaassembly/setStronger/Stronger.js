@@ -1,19 +1,42 @@
-// pages/third/Third.js
-
-// pages/forth/Forth.js
+// pages/mediaassembly/setStronger/Stronger.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    info:'hhh',
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
+  },
+  getinfo:function(e){
+    
+   wx.getStorage({
+     key: 'infos',
+     success: function(res) {
+       this.setData({
+         info: res.data 
+
+       })
+       
+       console.log(res.data+"==res")
+     },fail:function(res){
+      console.log(res)
+     }
+   })
+  },
+  saveinfo: function (e) {
+    wx.setStorage({
+      key: 'infos',
+      data: e.detail.value+"33",
+    })
+    console.log(e.detail.value+"====")
+
 
   },
 

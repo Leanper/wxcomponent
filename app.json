@@ -14,7 +14,9 @@
     "pages/formassembly/form/form",
     "pages/formassembly/picker/picker",
     "pages/formassembly/pickerview/pickerview",
-    "pages/mediaassembly/image/image"
+    "pages/mediaassembly/image/image",
+    "pages/mediaassembly/inter/getdata",
+    "pages/mediaassembly/setStronger/Stronger"
   ],
   "window": {
     "backgroundTextStyle": "dark",

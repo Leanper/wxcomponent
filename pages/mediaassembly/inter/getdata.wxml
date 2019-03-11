@@ -1,0 +1,11 @@
+<!--pages/mediaassembly/inter/getdata.wxml-->
+
+<view  wx:for='{{arrays}}' wx:for-item='item'> 
+
+
+<text>{{item.author}}</text>
+
+<image src='{{item.pic_big}}'>     
+</image>
+
+</view> 
