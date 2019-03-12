@@ -8,21 +8,13 @@ Page({
     info:'hhh',
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
 
-  },
   getinfo:function(e){
     
    wx.getStorage({
      key: 'infos',
      success: function(res) {
-       this.setData({
          info: res.data 
-
-       })
        
        console.log(res.data+"==res")
      },fail:function(res){

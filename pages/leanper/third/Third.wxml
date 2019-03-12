@@ -5,5 +5,7 @@
 <navigator url='/pages/mediaassembly/inter/getdata'>获取数据</navigator>
 
 <navigator url='/pages/mediaassembly/setStronger/Stronger'>存储数据</navigator>
+<navigator url='/pages/mediaassembly/map/map'>地图</navigator>
+
 
 

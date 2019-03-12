@@ -16,7 +16,8 @@
     "pages/formassembly/pickerview/pickerview",
     "pages/mediaassembly/image/image",
     "pages/mediaassembly/inter/getdata",
-    "pages/mediaassembly/setStronger/Stronger"
+    "pages/mediaassembly/setStronger/Stronger",
+    "pages/mediaassembly/map/map"
   ],
   "window": {
     "backgroundTextStyle": "dark",
