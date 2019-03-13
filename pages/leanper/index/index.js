@@ -19,6 +19,7 @@ Page({
     autoplay: true,
     interval: 3000,
     duration: 1000,
+    inputValue:'',
     datas: [
       wx.getSystemInfo({
         success: function(res) {
@@ -30,23 +31,38 @@ Page({
       { "title": ratio, "src": "/images/hh.jpg", "dec": "狍子2" },
       { "title": "标题3", "src": "/images/hh.jpg", "dec": "狍子3" }
     ],
-    click(){
-      this.setData({ msg: 'Hello World' })
-    }
+   
 
   },
   checkboxChange(e) {
     console.log('checkbox发生change事件，携带value值为：', e.detail.value)
   },
 
-  bindchange(e){
 
+
+
+ /**
+* 生命周期函数--监听页面初次渲染完成
+*/
+onReady: function () {
+    //获得dialog组件
+  this.dialog = this.selectComponent("#alert");
   },
-  state:function(e){
-    ischeck:true;
+  showDialog() {
+    this.dialog.showDialog();
+  },
+  //取消事件
+  _cancelEvent() {
+    console.log('你点击了取消');
+    this.dialog.hideDialog();
+  },
+  //确认事件
+  _confirmEvent() {
+    console.log('你点击了确定');
+
+    console.log(this.dialog.getInfos());
+    this.dialog.hideDialog();
   }
-
-
 
 
 

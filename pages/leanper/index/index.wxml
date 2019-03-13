@@ -9,16 +9,25 @@
 
 
 <navigator url="/pages/widget/checkbox/checkbox" class="widget" style="margin-top:10px">
-<button> checkbox group 
- </button>
+<button> checkbox group</button>
 </navigator>
 
 <navigator url="/pages/widget/dialog/dialog" class="widget" style="margin-top:10px">
-<button>弹框
- </button>
+<button>弹框</button>
 </navigator>
 
-
+<view class="container">
+<alert id="alert"
+ title='我是标题' 
+      content='恭喜你，学会了小程序组件' 
+      cancelText='知道了' 
+      confirm='谢谢你'
+      bind:cancelEvent="_cancelEvent"  
+      bind:confirmEvent="_confirmEvent"
+      bind:getInfos="inputValue"
+/>
+<button type="primary" bindtap="showDialog"> ClickMe! </button>
+</view>
 <view wx:for='{{info}}' wx:key='info'>
   <view>{{item.name}}</view>
   <view>{{item.text}}</view>
