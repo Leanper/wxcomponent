@@ -50,6 +50,7 @@ onReady: function () {
   },
   showDialog() {
     this.dialog.showDialog();
+    this.dialog.getInfos("sssssssssssss")
   },
   //取消事件
   _cancelEvent() {

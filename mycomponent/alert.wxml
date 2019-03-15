@@ -5,7 +5,7 @@
     <view class='wx-dialog'>
         <view class='wx-dialog-title'>{{ title }}</view>
         <view class='wx-dialog-content'>{{ content }}</view>
-            <input bindinput='getinfo' catchtap='getInfos'>{{inputValue}}</input>
+            <input bindinput='getinfo' catchtap='getInfos' >{{inputValue}}</input>
         <view class='wx-dialog-footer'>
           <view class='wx-dialog-btn' catchtap='_cancelEvent'>{{ cancelText }}</view>
           <view class='wx-dialog-btn' catchtap='_confirmEvent'>{{ confirmText }}</view>

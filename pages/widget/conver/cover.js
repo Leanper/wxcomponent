@@ -1,32 +1,17 @@
-// pages/five.js
+// pages/widget/conver/cover.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.getSystemInfo({
-      success: function(res) {
-        console.log("品牌"+res.brand)
-        console.log("system" + res.system)
-
-        console.log(res.model)
-        console.log(res.pixelRatio)
-        console.log(res.windowWidth)
-        console.log(res.windowHeight)
-        console.log(res.language)
-        console.log(res.version)
-        console.log(res.platform)
-
-      },
-    })
 
   },
 
@@ -76,8 +61,6 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-    wx.navigateTo({
-      url: "pages/forth/Forth"
-    })
+
   }
 })

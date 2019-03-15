@@ -1,0 +1,8 @@
+
+
+<view class="bj" >
+<cover-image src="/images/shopping.png" style="width:20px  height=20px"></cover-image>
+<cover-view class="pause" bindtap="pause">
+      <cover-image class="img" src="/images/shopping.png" />
+    </cover-view>
+</view>

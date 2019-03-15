@@ -1,19 +1,6 @@
 <!--pages/five.wxml-->
-<text  class='text_styles'>
-望N年之后
-西装革履 
-不远千里 
-只为几年前的幻想
-只为留住那1秒的瞬间 
-不为几年后的原谅
-不为一张脸去养一身伤
-——————————
-N=?
-                    --- 2018.9.24
-</text>
 
-
-  <navigator url= "/pages/tiaozhuan" >跳转到新页面 </navigator>
+  <navigator url= "/pages/tiaozhuan" >api </navigator>
 
  <navigator url="/pages/logs/logs" class="widget">
            view

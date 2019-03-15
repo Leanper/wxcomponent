@@ -17,7 +17,10 @@
     "pages/mediaassembly/image/image",
     "pages/mediaassembly/inter/getdata",
     "pages/mediaassembly/setStronger/Stronger",
-    "pages/mediaassembly/map/map"
+    "pages/mediaassembly/map/map",
+    "pages/widget/view/view",
+    "pages/widget/movableview/moveable-view",
+    "pages/widget/conver/cover"
   ],
   "window": {
     "backgroundTextStyle": "dark",

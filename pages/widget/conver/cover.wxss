@@ -1,0 +1,7 @@
+/* pages/widget/conver/cover.wxss */
+.bj{
+
+ width: 200px;
+ height: 400px;
+ background: #00ff00
+}

@@ -16,6 +16,18 @@
 <button>弹框</button>
 </navigator>
 
+<navigator url="/pages/widget/view/view" class="widget" style="margin-top:10px">
+<button>view</button>
+</navigator>
+
+<navigator url="/pages/widget/movableview/moveable-view" class="widget" style="margin-top:10px">
+<button>movable-view</button>
+</navigator>
+
+<navigator url="/pages/widget/conver/cover" class="widget" style="margin-top:10px">
+<button>conver</button>
+</navigator>
+
 <view class="container">
 <alert id="alert"
  title='我是标题' 

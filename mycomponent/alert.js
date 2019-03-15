@@ -62,7 +62,8 @@ Component({
       })
     },
     inputValue(e){
-      
+     
+      console.log(e.detail.value)
     },
   
     /*
