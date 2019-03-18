@@ -27,6 +27,8 @@
 <navigator url="/pages/widget/conver/cover" class="widget" style="margin-top:10px">
 <button>conver</button>
 </navigator>
+<button class="hide{{showView?'':'show'}}" bindtap="onChangeShowState">{{showView?'隐藏':'显示'}}</button>
+
 
 <view class="container">
 <alert id="alert"
