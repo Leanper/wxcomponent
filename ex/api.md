@@ -20,10 +20,18 @@
       console.log(item.text)
       console.log(app.globalData)
   }
-    * wx.setNavigationBarTitle 动态修改标题
-    * wx.setNavigationBarTitle 动态修改标题
-    * wx.setNavigationBarTitle 动态修改标题
-    * wx.setNavigationBarTitle 动态修改标题
+    * wx.setTabBarItem 动态修tabbar的某项内容
+    * wx.setTabBarStyle 动态修改tabbar整体样式
+    * wx.setTabBarBadge为某一项添加文本 removeTabBarBadge移除
+    * wx.setNavigationBarTitle 动态修改标题  
+    * wx.showTabBarRedDot   hideTabBarRedDot（展示隐藏红点）
+
+
+## 刷新
+  * wx.startpulltorefresh 开始刷新
+    * wx.stoppulltorefresh 停止刷新
+
+    
 
 
 

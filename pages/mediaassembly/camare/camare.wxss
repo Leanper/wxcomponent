@@ -1,0 +1,39 @@
+.cententView{ display: flex }
+ .button{ 
+   margin: 20rpx;
+    font-size: 30rpx;
+    }
+  .video {
+     margin-left: 50rpx; 
+     width: 300rpx; height: 300rpx; 
+     background-color: lavender;
+      }
+   .image{
+      margin-left: 50rpx;
+       width: 650rpx;
+        height: 500rpx; 
+        background-color: lavender; 
+        } 
+
+
+    .bright789-text{
+
+  font-size: 40rpx;
+
+  line-height: 40px;
+
+  color: #ff0000;
+
+}
+
+.bright789_view_hide{
+
+    display: none;
+
+}
+
+.bright789_view_show{
+
+    display: block;
+
+}

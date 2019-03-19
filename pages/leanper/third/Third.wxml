@@ -7,5 +7,10 @@
 <navigator url='/pages/mediaassembly/setStronger/Stronger'>存储数据</navigator>
 <navigator url='/pages/mediaassembly/map/map'>地图</navigator>
 
+<navigator url='/pages/mediaassembly/animation/animation'>动画</navigator>
+<navigator url='/pages/mediaassembly/camare/camare'>相机</navigator>
+
+
+
 
 

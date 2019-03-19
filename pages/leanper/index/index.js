@@ -105,7 +105,12 @@ onReady: function () {
   this.setData({
     showView: true,
     
-  })
+  }),
+      setTimeOut(function () {
+        
+        wx.stopPullDownRefresh()
+
+      }, 4000)
   },
 
   //检测tabbar的点击事件处理
@@ -134,11 +139,24 @@ onReady: function () {
       wx.showTabBar({
         animation: true
       })
+      , wx.setTabBarBadge({
+        index: 0,
+        text: '是',
+      }),
+      wx.createAnimation({
+        duration:1000,
+        timingFunction:'ease'
+      }),
+
+      wx.setTopBarText({
+        text: '哈哈哈哈哈哈哈哈哈哈哈哈',
+      })
     
     
 
 
-  }
+  },
+ 
 
 
 

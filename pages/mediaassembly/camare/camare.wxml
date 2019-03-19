@@ -1,0 +1,28 @@
+<!--pages/mediaassembly/camare/camare.wxml-->
+
+
+
+<view class='cententView'>
+  <camera   device-position="back" flash="off" binderror="error" style="margin-left: 50rpx;width: 300rpx; height: 300rpx;">
+  </camera>
+  <video src="{{videoSrc}}"></video>
+</view>
+
+<button type="primary" bindtap="btnClick1">开始录像</button>
+<button type="primary" bindtap="btnClick2">结束录像</button>
+
+<image mode="widthFix" src="{{src}}"></image>
+
+<button type="primary" bindtap="btnClick3">拍摄照片</button>
+
+ <view >
+
+     <button bindtap="onChangeShowState">{{showView?'隐藏':'显示'}}</button>
+
+  </view>
+
+  <view class="bright789_view_hide{{showView?'bright789_view_show':''}}">
+
+    <text class="bright789-text">我是被显示被隐藏控件</text>
+
+  </view>

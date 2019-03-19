@@ -20,7 +20,9 @@
     "pages/mediaassembly/map/map",
     "pages/widget/view/view",
     "pages/widget/movableview/moveable-view",
-    "pages/widget/conver/cover"
+    "pages/widget/conver/cover",
+    "pages/mediaassembly/animation/animation",
+    "pages/mediaassembly/camare/camare"
   ],
   "window": {
     "backgroundTextStyle": "dark",

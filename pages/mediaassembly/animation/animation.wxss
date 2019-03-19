@@ -1,0 +1,8 @@
+/* pages/mediaassembly/animation/animation.wxss */
+.tv_style{
+  width: 100px;
+  height: 20px;
+  /* padding: 10px; */
+  margin: 10px;
+  background-color: #00ff00
+}
